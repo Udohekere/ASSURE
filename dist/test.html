@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IONOS Deployment Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>IONOS Deployment Diagnostic Page</h1>
+    <p class="success">✓ This HTML file is loading correctly</p>
+    
+    <h2>Next Steps to Fix Blank Page:</h2>
+    
+    <ol>
+        <li><strong>Check Browser Console</strong>
+            <ul>
+                <li>Press F12 to open Developer Tools</li>
+                <li>Go to the "Console" tab</li>
+                <li>Look for any red error messages</li>
+                <li>Check if JS/CSS files are loading (404 errors)</li>
+            </ul>
+        </li>
+        
+        <li><strong>Check Network Tab</strong>
+            <ul>
+                <li>In Developer Tools, go to "Network" tab</li>
+                <li>Reload the page</li>
+                <li>Look for failed requests (red items)</li>
+                <li>Verify index.html, JS, and CSS files load successfully</li>
+            </ul>
+        </li>
+        
+        <li><strong>Common IONOS Issues</strong>
+            <ul>
+                <li>404 on /assets/* files - .htaccess not working</li>
+                <li>MIME type errors - Missing AddType directives</li>
+                <li>Blank page with no errors - React not mounting</li>
+            </ul>
+        </li>
+    </ol>
+    
+    <h2>Files to Check:</h2>
+    <ul>
+        <li>index.html should load</li>
+        <li>/assets/index-[hash].js should load</li>
+        <li>/assets/index-[hash].css should load</li>
+        <li>.htaccess should be present in root</li>
+    </ul>
+    
+    <p class="info"><strong>After checking:</strong> If assets are 404, the .htaccess isn't working. If assets load but page is blank, check console for React errors.</p>
+</body>
+</html>
