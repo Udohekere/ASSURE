@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, Linkedin, Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -18,6 +18,9 @@ export default function Footer() {
               </a>
               <a href="https://www.instagram.com/assurancehill" target="_blank" rel="noopener noreferrer" className="bg-slate-800 p-2 rounded-lg hover:bg-blue-600 transition-colors">
                 <Instagram size={20} />
+              </a>
+              <a href="https://www.facebook.com/AssuranceHill" target="_blank" rel="noopener noreferrer" className="bg-slate-800 p-2 rounded-lg hover:bg-blue-600 transition-colors">
+                <Facebook size={20} />
               </a>
             </div>
           </div>
@@ -86,7 +89,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 pt-8">
           <div className="text-center text-gray-400">
             <p className="mb-2">&copy; {new Date().getFullYear()} AssuranceHill Consulting. All rights reserved.</p>
-            <p className="text-sm italic text-gray-500">"If you fail to plan, you plan to fail."</p>
+            <p className="text-sm italic text-gray-500"> If you fail to plan, you plan to fail </p>
           </div>
         </div>
       </div>
