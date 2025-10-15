@@ -84,7 +84,7 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/company/assurancehill" target="_blank" rel="noopener noreferrer" className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors">
                   <Linkedin className="text-blue-600" size={24} />
                 </a>
-                <a href="https://www.instagram.com/assurancehill" target="_blank" rel="noopener noreferrer" className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors">
+                <a href="https://www.instagram.com/assurancehillconsulting/" target="_blank" rel="noopener noreferrer" className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors">
                   <Instagram className="text-blue-600" size={24} />
                 </a>
               </div>
