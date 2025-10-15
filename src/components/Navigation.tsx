@@ -33,7 +33,7 @@ export default function Navigation() {
             <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Contact
             </button>
-            <a href="https://calendly.com/info-assurancehill" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition-all font-medium shadow-sm hover:shadow-md">
+            <a href="https://calendly.com/assurancehillconsulting" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition-all font-medium shadow-sm hover:shadow-md">
               Schedule Consultation
             </a>
           </div>
