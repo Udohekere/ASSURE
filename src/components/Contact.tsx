@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, Send, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, Send, Linkedin, Instagram, Facebook } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -86,6 +86,9 @@ export default function Contact() {
                 </a>
                 <a href="https://www.instagram.com/assurancehillconsulting/" target="_blank" rel="noopener noreferrer" className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors">
                   <Instagram className="text-blue-600" size={24} />
+                </a>
+                <a href="https://www.facebook.com/AssuranceHill" target="_blank" rel="noopener noreferrer" className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors">
+                  <Facebook className="text-blue-600" size={24} />
                 </a>
               </div>
             </div>
