@@ -96,7 +96,7 @@ export default function Contact() {
                 Ready to get started? Book a consultation with our GRC experts to discuss your compliance needs.
               </p>
               <a
-                href="https://calendly.com/info-assurancehill"
+                href="https://calendly.com/assurancehillconsulting"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-all font-semibold shadow-lg"
