@@ -81,7 +81,7 @@ export default function Contact() {
             <div className="mb-8">
               <h4 className="font-semibold text-gray-900 mb-4">Connect With Us</h4>
               <div className="flex space-x-4">
-                <a href="https://www.linkedin.com/company/assurancehill" target="_blank" rel="noopener noreferrer" className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors">
+                <a href="https://www.linkedin.com/company/assurancehill-consulting/" target="_blank" rel="noopener noreferrer" className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors">
                   <Linkedin className="text-blue-600" size={24} />
                 </a>
                 <a href="https://www.instagram.com/assurancehillconsulting/" target="_blank" rel="noopener noreferrer" className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors">
